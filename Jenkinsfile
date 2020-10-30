@@ -14,5 +14,10 @@ pipeline{
                 sh 'npm run sonar'
             }
         }
+        stage('test'){
+            steps{
+                sh 'npm run test'
+            }
+        }
     }
 }
