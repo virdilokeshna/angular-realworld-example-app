@@ -16,10 +16,10 @@ pipeline{
                 sh 'npm run sonar'
             }
         }
-        stage('test'){
+        /*stage('test'){
             steps{
                 sh 'npm run test'
             }
-        }
+        }*/
     }
 }
