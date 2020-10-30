@@ -1,0 +1,6 @@
+projectKey=ang2-conduit
+serverUrl=http://sonarqubeprac.eastus2.cloudapp.azure.com:9000
+serverVersion=8.5.1.38104
+dashboardUrl=http://sonarqubeprac.eastus2.cloudapp.azure.com:9000/dashboard?id=ang2-conduit
+ceTaskId=AXV40QTl1dtUvQ7HXp9t
+ceTaskUrl=http://sonarqubeprac.eastus2.cloudapp.azure.com:9000/api/ce/task?id=AXV40QTl1dtUvQ7HXp9t

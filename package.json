@@ -5,10 +5,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod  --base-href ./ && cp CNAME dist/CNAME",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint --force",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "sonar": "node sonar.js"
   },
   "pre-commit": [
     "lint"
@@ -23,6 +24,7 @@
     "@angular/platform-browser": "7.2.4",
     "@angular/platform-browser-dynamic": "7.2.4",
     "@angular/router": "7.2.4",
+    "angular": "^1.8.2",
     "core-js": "^2.4.1",
     "marked": "^0.3.9",
     "rxjs": "^6.4.0",
@@ -48,6 +50,7 @@
     "karma-jasmine-html-reporter": "^0.2.2",
     "pre-commit": "^1.2.2",
     "protractor": "^5.4.2",
+    "sonarqube-scanner": "^2.7.0",
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
     "typescript": "3.2.4"
